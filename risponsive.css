@@ -1,0 +1,11 @@
+@media only screen and (max-width: 992px) {
+    .container {
+        flex-direction: column;
+    }
+    #orange-card {
+        border-radius: 8px 8px 0 0;
+    }
+    #dark-pine-green-card {
+        border-radius: 0 0 8px 8px;
+    }
+}

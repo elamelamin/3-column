@@ -1,0 +1,118 @@
+@font-face {
+    font-family: "font-1";
+    src: url(font/LexendDeca-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "font-2";
+    src: url(font/BigShouldersDisplay-VariableFont_wght.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+#orange-card a {
+    color: #E28625;
+}
+
+#pine-green-card a {
+    color: #006971;
+}
+
+#dark-pine-green-card a {
+    color: #004140;
+}
+
+#orange-card {
+    background: #E28625;
+    border-radius: 8px 0 0 8px;
+}
+
+#pine-green-card {
+    background: #006971;
+}
+
+#dark-pine-green-card {
+    background: #004140;
+    border-radius: 0 8px 8px 0;
+}
+
+body {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #f2f2f2;
+}
+
+.container {
+    max-width: 920px;
+    display: flex;
+    flex-direction: row;
+    margin: 50px 0;
+}
+
+.card {
+    width: 307px;
+    height: 500px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    height: 350px;
+}
+
+h2 {
+    font-family: "font-2";
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.card p {
+    font-family: "font-1";
+    font-weight: 400;
+    opacity: 0.75;
+    line-height: 25px;
+}
+
+button {
+    width: 142px;
+    height: 44px;
+    border-radius: 25px;
+    border: 2px solid #f2f2f2;
+    background-color: #f2f2f2;
+}
+
+button a {
+    padding: 11px 31px;
+    font-family: "Lexend Deca";
+    display: block;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+button a:hover {
+    color: #f2f2f2 !important;
+}
+
+#under {
+    text-align: center;
+    color: black;
+}
+
+#under a {
+    color: hsl(228, 45%, 44%);
+}
