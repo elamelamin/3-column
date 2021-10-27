@@ -10,7 +10,7 @@ Users should be able to:
 ![Screenshot 3 column preview card component](Screenshot.png)
 
 ### Links
-- Live Site URL: [live site URL here](https://elamelamin.github.io/3column)
+- Live Site URL: [live site URL here](https://elamelamin.github.io/3-column)
 
 ### Built with
 - Semantic HTML5 markup
